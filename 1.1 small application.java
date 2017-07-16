@@ -11,9 +11,9 @@ public class Hello {
 //		System.out.println("echo:"+in.nextLine());
 		int price;
 		int amount;
-		System.out.print("请输入票面金额：");
+		System.out.print("璇疯緭鍏ョエ闈㈤噾棰濓細");
 		amount=in.nextInt();
-		System.out.print("请输入消费金额：");
+		System.out.print("璇疯緭鍏ユ秷璐归噾棰濓細");
 		price=in.nextInt();
 		System.out.println(amount+"-"+price+"="+(amount-price));
 	}
