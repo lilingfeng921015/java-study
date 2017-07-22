@@ -11,7 +11,7 @@ public class Ticket
 	while(true) 
 		{
 			Scanner in = new Scanner(System.in);
-			System.out.println("ÇëÍ¶±Ò£º");
+			System.out.println("è¯·æŠ•å¸ï¼š");
 			int amount=in.nextInt();
 	//		System.out.println(amount);
 			int balance=0;
@@ -19,9 +19,9 @@ public class Ticket
 	//		System.out.println(amount>=price);
 			if(balance>=price)
 			{
-				System.out.println("Java³Ç¼ÊÌúÂ·×¨Ïß");
-				System.out.println("Æ±¼Û10Ôª");
-				System.out.println("ÕÒÁã£º"+(balance-price));
+				System.out.println("JavaåŸé™…é“è·¯ä¸“çº¿");
+				System.out.println("ç¥¨ä»·10å…ƒ");
+				System.out.println("æ‰¾é›¶ï¼š"+(balance-price));
 				balance=0;
 			}
 		}
